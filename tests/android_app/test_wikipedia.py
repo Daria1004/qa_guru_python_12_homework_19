@@ -1,4 +1,3 @@
-import allure
 from allure_commons._allure import step
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import browser, have
@@ -16,7 +15,7 @@ def test_search():
         results.first.should(have.text('Appium'))
 
 
-def test_search_samarkand():
+def test_search_qa():
 
     with step('Type search'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, "Search Wikipedia")).click()
