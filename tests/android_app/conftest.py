@@ -34,4 +34,4 @@ def mobile_management():
         browser.quit()
 
     if config.runs_on_bstack:
-        utils_allure.attach_bstack_videonpm(session_id)
+        utils_allure.attach_bstack_video(session_id)

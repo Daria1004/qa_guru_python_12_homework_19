@@ -4,7 +4,7 @@ import allure
 from selene import browser
 
 
-def attach_bstack_videonpm(session_id):
+def attach_bstack_video(session_id):
 
     import requests
     bstack_session = requests.get(
