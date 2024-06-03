@@ -19,3 +19,6 @@ CONTEXT='bstack' pytest
 ```
 
 Доступные варианты окружения: `local_emulator`, `local_real`, `bstack`
+
+APK брать здесь: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
+Полезная ссылка: https://github.com/appium/appium-uiautomator2-driver
